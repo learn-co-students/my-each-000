@@ -1,3 +1,7 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(array)
+  while array != []
+    x = array.shift
+    puts x
+  end
+  array
 end
