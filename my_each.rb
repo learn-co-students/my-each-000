@@ -1,8 +1,8 @@
-def my_each(wtf)
+def my_each(array)
   counter = 0
-  while counter < wtf.length
-    yield(wtf[counter])
+  while counter < array.length
+    yield(array[counter])
     counter += 1
   end
-  wtf
+    array  
 end
